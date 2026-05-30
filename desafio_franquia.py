@@ -27,7 +27,7 @@ for transacao in transacoes:
     else:
         soma_por_franquia[transacao["franquia"]] = transacao["valor"]
 
-print (soma_por_franquia)
+print(soma_por_franquia)
 
 # 3. Encontre a franquia com maior total (dica: função max())
 
